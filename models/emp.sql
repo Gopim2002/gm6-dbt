@@ -1,10 +1,8 @@
 with emp as (
-
-    select * from {{ ref('stg_emp') }}
+    
+    select  * from {{ ref('stg_emp') }}
 
 ),
-
-
 
 final as (
 
