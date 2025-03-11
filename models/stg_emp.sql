@@ -8,7 +8,7 @@ select
 	SALARY,
 	AGE
 
-from {{ source('google_sheets', 'emp') }}
+from {{ source('emp', 'emp') }}
 
 
     
