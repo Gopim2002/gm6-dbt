@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-    - name: emp
+    - name: google_sheets
       description: This is a replica of the Postgres database used by our app
       database: fivetran_db
       schema: google_sheets
