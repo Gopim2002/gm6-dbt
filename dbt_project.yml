@@ -29,8 +29,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   google_sheets:
     +materialized: table
-    example:
-      +materialized: view
+    
 
       
 
