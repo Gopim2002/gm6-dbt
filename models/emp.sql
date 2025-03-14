@@ -1,6 +1,7 @@
 with emp as (
     
     select  * from {{ ref('stg_emp') }}
+    limit 10
 
 ),
 
